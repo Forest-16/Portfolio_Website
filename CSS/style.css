@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    display: flex;
+}
+
+#main_container{
+    width: 1024px;
+    height: 1000px;
+    margin: 0px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#header{
+
+ width: 1024px;
+ height: 89px; 
+ background-color:#4A8E5A;  
+}
+
+
+#nav {
+
+    background-color: #4A8E5A;
+    height:89px;
+    width: 1024px;
+    display: flex;
+    justify-content:space-around;
+}
+
+#about_me {
+    width: 250px;
+    height: 89px;
+    background-color: #8CC63F;
+
+}
+h1{
+    color: orange;
+}
+
+
+
