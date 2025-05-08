@@ -28,6 +28,7 @@ body{
     width: 1024px;
     display: flex;
     justify-content:space-around;
+    ;
 }
 
 #about_me {
@@ -40,5 +41,21 @@ h1{
     color: orange;
 }
 
+#Forest-logo-div{
+    width: 1024;
+    height: 315px;
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    
+} 
 
+#Forest-logo-div img{
+    width: 100%;
+    height: 100%;
+}
 
