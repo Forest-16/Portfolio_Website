@@ -31,14 +31,15 @@ body{
     ;
 }
 
-#about_me {
+.about_me {
     width: 250px;
     height: 89px;
     background-color: #8CC63F;
 
 }
 h1{
-    color: orange;
+    color: black;
+    text-align: center;
 }
 
 #Forest-logo-div{
@@ -59,3 +60,8 @@ h1{
     height: 100%;
 }
 
+.navbar ul{
+list-style-type: none;
+    background-color: grey;
+    padding: 0%;
+}
