@@ -31,31 +31,45 @@ h1{
     height: 100%;
 }
 
-#navbar{
+#nav{
     width: 1024px;
-    height: 89px;
+    height: 85px;
     background-color: #4A8E5A;
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    position:absolute;
+    align-items: center;
 }
-
-#navbar ul{
-    list-style-type: none;
-    background-color: grey;
-    padding: 0%;
-    margin: 0px;
+#navbar{
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    
+
 }
 
-#navbar a{
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    heigth: 85px;
+    width: 1024px;
+
+}
+
+#navbar ul li {
     color: white;
     text-decoration: none;
-    padding: 15px;
-    display:block;
-    text-align: center;
-    position: absolute;
-
+    
 }
+
+li {
+    background-color: #8CC63F;
+    width: 145px;
+    height:85px;
+    font-size: 36px;
+}
+.box{
+    heigth: 85px;
+    width: 1024px;
+    color: #8CC63F;
+}
+
